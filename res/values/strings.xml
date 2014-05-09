@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Tarombo Sirait</string>
+	<string name="drawer_open">open drawer</string>
+	<string name="drawer_close">close drawer</string>
+	
+	<string-array name="action_bar_menu_array">
+	    <item>Home</item>
+        <item>Tarombo</item>
+        <item>Foto</item>
+        <item>Acara</item>
+        <item>History</item>
+    </string-array>
+    
+	<!--  Home Section -->
+	<string name="str_opening">== HORAS MA DI HITA SALUHUTNA ==</string>
+	<string name="str_contact">Silahkan contact admin di \n h3nkqiu@gmail.com \n 082113495119</string>
+</resources>

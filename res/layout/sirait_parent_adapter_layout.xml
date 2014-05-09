@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutAdapter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+        <RelativeLayout 
+            android:id="@+id/rList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    	    <TextView
+    	        android:layout_marginTop="5dp"
+    	        android:layout_marginBottom="5dp"
+    	        android:layout_marginLeft="10dp"
+		        android:id="@+id/tvName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentTop="true" 
+		        android:textSize="14sp"
+		        android:textStyle="bold"
+		        android:textColor="@color/Biru"
+		        />
+		    <LinearLayout
+		        android:layout_marginTop="5dp"
+		        android:layout_marginLeft="10dp"
+		        android:id="@+id/layoutForDescription"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical" 
+		        android:layout_below="@id/tvName"
+		        android:gravity="center"
+		        android:layout_marginBottom="5dp"
+		        />
+	    </RelativeLayout>
+	    <ImageView
+	        android:id="@+id/imgNext"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+	        android:src="@drawable/btn_next"
+	        android:contentDescription="@string/app_name"
+	        />
+</RelativeLayout>
